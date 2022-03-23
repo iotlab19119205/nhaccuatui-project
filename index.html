@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NhacCuaTui - Nghe nhạc mới HOT nhất, tải nhạc MP3 chất lượng cao</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="data:image/png;base64,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">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	<!-- <script src="https://code.jquery.com/jquery-latest.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="./css/GRID.css">
+	<link rel="stylesheet" type="text/css" href="./css/MENU.css">
+	<link rel="stylesheet" type="text/css" href="./css/SLIDERIGHT.css">
+	<link rel="stylesheet" type="text/css" href="./css/SLIDE.css">
+	<link rel="stylesheet" type="text/css" href="./css/NGHEGIHOMNAY.css">
+	<link rel="stylesheet" type="text/css" href="./css/CHUDEHOT.css">
+	<link rel="stylesheet" type="text/css" href="./css/MOIPHATHANH.css">
+	<link rel="stylesheet" type="text/css" href="./css/MVHOT.css">
+	<link rel="stylesheet" type="text/css" href="./css/BXH-BAIHAT.css">
+	<link rel="stylesheet" type="text/css" href="./css/BAIHAT.css">
+	<link rel="stylesheet" type="text/css" href="./css/KARAOKE.css">
+	<link rel="stylesheet" type="text/css" href="./css/GIAITRI.css">
+	<link rel="stylesheet" type="text/css" href="./css/BXHMV.css">
+	<link rel="stylesheet" type="text/css" href="./css/NGHESIHOT.css">
+    <link rel="stylesheet" type="text/css" href="./css/player.css">
+</head>
+<body>
+<div class="layout">	
+	<!-- HEADER -->
+	<div class="header">
+		<div class="topWeb">
+			<ul class="menu">
+				<li><img src="./photo/NCT.png" style="width: 65px; height: 32px;"></li>
+				<li class="menu-baihat"><a href="#">Bài Hát</a>
+					<ul class="menu-con-baihat">
+						<li class="menu-con-baihat-vietnam">
+							<ul>
+									<li><a href="#">Việt Nam</a></li>
+									<li><a href="#">Nhạc Trẻ</a></li>
+									<li><a href="#">Trữ Tình</a></li>
+									<li><a href="#">Remix Việt</a></li>
+									<li><a href="#">Rap Việt</a></li>
+									<li><a href="#">Tiền Chiến</a></li>
+
+							</ul>
+						</li>
+						<li class="menu-con-baihat-vietnam">
+							<ul>
+									<li><a href="#">Việt Nam</a></li>
+									<li><a href="#">Nhạc Trẻ</a></li>
+									<li><a href="#">Trữ Tình</a></li>
+									<li><a href="#">Remix Việt</a></li>
+									<li><a href="#">Rap Việt</a></li>
+									<li><a href="#">Tiền Chiến</a></li>
+
+							</ul>
+						</li>
+						<li class="menu-con-baihat-vietnam">
+							<ul>
+									<li><a href="#">Việt Nam</a></li>
+									<li><a href="#">Nhạc Trẻ</a></li>
+									<li><a href="#">Trữ Tình</a></li>
+									<li><a href="#">Remix Việt</a></li>
+									<li><a href="#">Rap Việt</a></li>
+									<li><a href="#">Tiền Chiến</a></li>
+
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">Playlist</a></li>
+				<li><a href="#">Tuyển Tập</a></li>
+				<li><a href="#">Video</a></li>
+				<li><a href="#">BXH</a></li>
+				<li><a href="#">Chủ Đề</a></li>
+				<li><a href="#">Top 100</a></li>
+				<li><a href="#">Nghệ Sĩ</a></li>
+				<li><a href="#" style="font-weight: bold; position: relative; top:-4px " >...</a></li>
+				<li class="icon-menu"><a href="#"><i class="far fa-user fa-lg"></i></a></li>
+				<li class="icon-menu"><a href="#"><i class="fas fa-crown fa-lg"></i></a></li>
+				<li class="icon-menu"><a href="#"><i class="fas fa-headphones fa-lg"></i></a></li>
+				<li class="icon-menu"><a href="#"><i class="fas fa-cloud-upload-alt fa-lg"></i></a></li>
+			</ul>
+		</div>
+	</div>		
+<!-- ..................................... -->
+
+<div class="main">
+	<!-- LEFTER -->
+	<div class="Lefter block1">
+		<div class="slider">
+			<div class="slides">
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+				<input type="radio" name="radio-btn" id="radio5">
+				<div class="slide first">
+					<img src="./photo/slide1.jpg" alt="" >					
+				</div>	
+				<div class="slide "><img src="./photo/slide2.jpg" alt="" ></div>
+				<div class="slide"><img src="./photo/slide3.jpg" alt="" ></div>
+				<div class="slide"><img src="./photo/slide4.jpg" alt="" ></div>
+				<div class="slide"><img src="./photo/slide5.jpg" alt="" ></div>
+				<!-- <div class="auto-navi">
+					<div class="auto-btn1">	</div>
+					<div class="auto-btn2">	</div>
+					<div class="auto-btn3">	</div>
+					<div class="auto-btn4">	</div>
+					<div class="auto-btn5">	</div>
+				</div> -->
+			</div>
+			<div class="manual-navi">
+				<label for="radio1" class="manual-btn"></label>
+				<label for="radio2" class="manual-btn"></label>
+				<label for="radio3" class="manual-btn"></label>
+				<label for="radio4" class="manual-btn"></label>
+				<label for="radio5" class="manual-btn"></label>
+			</div>
+		</div>
+	</div>
+<!-- ..................................... -->	
+	<!-- RIGHTER -->
+	<div class="Righter block1">
+		<div class="slideRight">
+			<div class="large-slide">
+				<img src="https://avatar-ex-swe.nixcdn.com/song/2022/02/23/7/f/a/6/1645598871432_300.jpg" class="picture">
+			</div>
+			<div class="title">
+				<p><a href="#">COMING SOON</a></p>
+				<p class="nameSong"><a href="#">Chill di em</a></p>
+			</div>
+		</div>
+	</div>
+<!-- ..................................... -->	
+
+<!-- HÔm NAY NGHE GI -->
+	
+		<div class="DanhSach2 block1">
+			<div><p style="text-align: left; font-size: 24px; margin: 15px 0px; color: #2daaed;" >NGHE GÌ HÔM NAY ></p></div>
+			<div class="list-HNNG2">
+
+				<div class="NgheGiHomNay">	
+					<div class="NGHN">
+						<div class="NGHN-gradient">
+							<i class="far fa-play-circle fa-2x"></i>
+					 		<div class="NGHN-view-count"><i class="fas fa-headphones-alt"></i>   2.291</div>
+						</div> 	
+					</div>
+					<div class="NGHN-tittle"><a href="#">Mưa Rơi Cuối Tuần</a></div>
+				</div>
+
+				<div class="NgheGiHomNay">	
+					<div class="NGHN">
+						<div class="NGHN-gradient">
+							<i class="far fa-play-circle fa-2x"></i>
+					 		<div class="NGHN-view-count"><i class="fas fa-headphones-alt"></i>   2.291</div>
+						</div> 	
+					</div>
+					<div class="NGHN-tittle"><a href="#">Mưa Rơi Cuối Tuần</a></div>
+				</div>
+
+				<div class="NgheGiHomNay">	
+					<div class="NGHN">
+						<div class="NGHN-gradient">
+							<i class="far fa-play-circle fa-2x"></i>
+					 		<div class="NGHN-view-count"><i class="fas fa-headphones-alt"></i>   2.291</div>
+						</div> 	
+					</div>
+					<div class="NGHN-tittle"><a href="#">Mưa Rơi Cuối Tuần</a></div>
+				</div>
+
+				<div class="NgheGiHomNay">	
+					<div class="NGHN">
+						<div class="NGHN-gradient">
+							<i class="far fa-play-circle fa-2x"></i>
+					 		<div class="NGHN-view-count"><i class="fas fa-headphones-alt"></i>   2.291</div>
+						</div> 	
+					</div>
+					<div class="NGHN-tittle"><a href="#">Mưa Rơi Cuối Tuần</a></div>
+				</div>
+
+				<div class="NgheGiHomNay">	
+					<div class="NGHN">
+						<div class="NGHN-gradient">
+							<i class="far fa-play-circle fa-2x"></i>
+					 		<div class="NGHN-view-count"><i class="fas fa-headphones-alt"></i>   2.291</div>
+						</div> 	
+					</div>
+					<div class="NGHN-tittle"><a href="#">Mưa Rơi Cuối Tuần</a></div>
+				</div>
+
+
+			</div>	
+</div>			
+<!-- ................................... -->
+
+<!-- CHỦ ĐỀ HOT -->
+	
+	<div class="theme block1">
+		<p style="text-align: left; font-size: 24px; margin: 15px 0px; color: #2daaed;">CHỦ ĐỀ HOT></p>
+		<ul>
+			<li><img src="https://avatar-nct.nixcdn.com/topic/thumb/2018/12/18/a/9/c/5/1545122207371_org.jpg"></li>
+			<li><img src="https://avatar-nct.nixcdn.com/topic/thumb/2018/11/19/9/1/5/9/1542607756750_org.jpg"></li>
+			<li><img src="https://avatar-nct.nixcdn.com/topic/thumb/2018/11/19/9/1/5/9/1542607526328_org.jpg"></li>
+			<li><img src="https://avatar-nct.nixcdn.com/topic/thumb/2018/11/19/9/1/5/9/1542607452664_org.jpg"></li>
+			<li><img src="https://avatar-nct.nixcdn.com/topic/thumb/2018/11/19/9/1/5/9/1542602890873_org.jpg"></li>
+		</ul>
+	</div>
+<!-- ................................... -->
+
+<!-- MỚI PHÁT HÀNH -->
+<div class="MPH block1">
+		<div class="title-MPH">
+			<p style="text-align: left; font-size: 24px; margin: 15px 0px; color: #2daaed;" >MỚI PHÁT HÀNH ></p>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Hoc IoT rat vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH" style="margin-right: 0px;">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MPH" style="margin-right: 0px;">
+			<div class="image-MPH">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MPH"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MPH"><i class="fas fa-headphones-alt">&nbsp81.365</i></div>
+			</div>
+			<div class="ind-MPH">
+				<p>Học IoT rất vui</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+	</div>
+<!-- ............................................ -->
+<!-- MV MỚI -->
+	<div class="MVMOI block1">
+		<div class="title-MVMOI">
+			<p style="text-align: left; font-size: 24px; margin: 15px 0px; color: #2daaed;" >MV HOT ></p>
+		</div>
+		<div class="info-top-MVMOI"><!-- 2 mv top hot -->
+			<div class="image-top-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-top-MVMOI"><i class="far fa-play-circle fa-3x"></i></div></a>
+				<div class="view-top-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-top-MVMOI">03:51</div>
+				<div class="ind-top-MVMOI">
+					<p class="name-top-MVMOi">Yêu Anh</p>
+					<p style="color: #c7c7c7;font-size: 14px; margin-top: 3px;">Trần Hà My</p>
+				</div>
+			</div>
+		</div>
+		<div class="info-top-MVMOI" style="margin-right: 0px;">
+			<div class="image-top-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-top-MVMOI"><i class="far fa-play-circle fa-3x"></i></div></a>
+				<div class="view-top-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-top-MVMOI">03:51</div>
+				<div class="ind-top-MVMOI">
+					<p class="name-top-MVMOi">Yêu Anh</p>
+					<p style="color: #c7c7c7;font-size: 14px; margin-top: 3px;">Trần Hà My</p>
+				</div>
+			</div>
+		</div><!-- het 2 mv top hot -->
+
+		<div class="info-MVMOI"><!--  mv nhỏ -->
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MVMOI">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MVMOI">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MVMOI" style="margin-right: 0px;">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+
+		<div class="info-MVMOI">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MVMOI">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+		<div class="info-MVMOI">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div>
+        <div class="info-MVMOI">
+			<div class="image-MVMOI">
+				<a href="https://www.nhaccuatui.com"><div class="gradient-MVMOI"><i class="far fa-play-circle fa-2x"></i></div></a>
+				<div class="view-MVMOI"><i class="far fa-eye">&nbsp81.365</i></div>
+				<div class="time-MVMOI">03:51</div>
+			</div>
+			<div class="ind-MVMOI">
+				<p>Yêu Anh</p>
+				<p style="color: #c7c7c7;font-size: 14px; margin-top: 5px;">Trần Hà My</p>
+			</div>
+		</div> 
+    <!-- hết mv nhỏ  -->
+	</div>
+<!-- .............................................. -->
+
+<!-- <BANG XEP HANG BAI HAT> -->
+	<div class="BXH-BAIHAT block1"><!-- BXH BAI HAT -->
+			<div>
+				<p style="text-align: left; font-size: 24px; margin: 15px 0px; color: #2daaed;" >BXH BÀI HÁT <i class="far fa-play-circle "></i></p>
+			</div>
+			<div class="country-BXH">
+				<div style="border-radius: 20px 0px 0px 20px;" class="contryside" id="vn"><!-- <a href="#"> -->Việt Nam<!-- </a> --></div>
+				<div class="contryside" id="usuk"><!-- <a href="#"> -->Âu Mỹ<!-- </a> --></div>
+				<div style="border-radius: 0px 20px 20px 0px" class="contryside"><!-- <a href="#" > -->Hàn Quốc<!-- </a> --></div>
+			</div>
+
+			<div class="list-HNNG1">
+				<div class="image-BXH-BAIHAT">
+					<img src="https://avatar-nct.nixcdn.com/song/2019/05/12/a/9/0/c/1557657445381.jpg">
+					<p>1</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p style="color: #1abc9c">2</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p style="color: #f39c12">3</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>4</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>5</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>6</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>7</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>8</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>9</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+			<div class="list-HNNG2">
+				<div class="image-BXH-BAIHAT">
+					<p>10</p>
+				</div>
+				<div class="info-BXH-BAIHAT">
+					<p>Gene</p>
+					<p>Binz,Touliver</p>
+				</div>	
+			</div>
+
+		</div>
+<!-- .................................................... -->
+<!-- BAI HAT -->
+	<div class="BAIHAT block1">
+			<div>
+				<p style="text-align: left; font-size: 24px; margin: 15px 0px; color: #2daaed;" >BÀI HÁT ></p>
+			</div>
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i> 2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+
+			<div class="list-BAIHAT">
+				<div class="image-BAIHAT">
+					<div><img src="https://avatar-nct.nixcdn.com/song/2019/05/14/b/c/e/e/1557830322655.jpg"></div>
+				</div>
+				<div class="info-BAIHAT">
+					<p>Em Trông Mong Điều Gì</p>
+					<p>Binz,Touliver</p>
+				</div>	
+				<div class="view-BAIHAT"><i class="fas fa-headphones-alt"></i>   2.291</div>
+				<div class="listen-BAIHAT"><i class="far fa-heart"></i> &nbsp; &nbsp;<i class="fas fa-play"></i></div>
+			</div>
+		</div><!-- Het BAI HAT -->
+</div><!-- main -->
+	<!-- FOOTER -->
+	<div class="footer">
+        <div class="control">
+            <div class="progress-line">
+                <div class="line-1st"></div>
+                <div class="line-2nd" style="width: 30.4563%;"></div>
+            </div>
+            <div class="control-left">
+                <div class="song">
+                    <img src="photo/footer.jpg" alt="" class="song-img">
+                </div>
+                <div class="song-info">
+                    <p class="song-name">Yêu Đương Khó Quá thì chạy về khóc với anh</p>
+                    <p class="song-singer">ERIK</p>
+                </div>
+            </div>
+            <div class="control-right">
+                <div class="btn-control">
+                    <div class="btn btn-hover btn-prev">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+                    <div class="btn btn-play">
+                        <!-- <i id="icon-pause" class="far fa-pause-circle"></i> -->
+                        <i id="icon-play" class="far fa-play-circle"></i>
+                    </div>
+                    <div class="btn btn-hover btn-next">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ..................................... -->
+</div>
+</body>
+</html>
+<script>
+	var btn_control_icon = document.querySelector('#icon-play');
+	var toggle = false;
+	btn_control_icon.onclick = function(){
+    if (toggle === true)  {
+		btn_control_icon.className = 'far fa-play-circle'
+    } 
+	else{
+		btn_control_icon.className = 'far fa-pause-circle'
+    }
+    toggle = !toggle;
+}
+	
+</script>

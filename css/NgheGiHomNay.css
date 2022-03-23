@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.DanhSach2{
+	    font-family: 'NhacCuaTui',sans-serif;
+	   	margin: 0px;
+	   	width: 839px;
+	   	height: 220px;
+}
+.NgheGiHomNay{
+	width: 152px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 20px;
+
+}
+.NGHN{
+	width: 152px;
+	height: 152px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJbuemf0TiFYQ_vnPGqOskibYOlvPNZJkZg&usqp=CAU");
+	position: relative;	
+}
+.NGHN-view-count{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.NGHN .NGHN-gradient .fa-2x{
+	opacity: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 152px;
+	transition: all 0.5s;
+
+}
+.NGHN:hover.NGHN .NGHN-gradient .fa-2x{
+	opacity: 1;
+	background: radial-gradient(circle, rgba(0,0,0,0.4514180672268907) 0%, rgba(0,0,0,0.45) 100%);
+	transition:scale(1);
+	color: white;
+}
+.NGHN-view-count{
+	background: linear-gradient(270deg, rgba(0,0,0,0.7679446778711485) 0%, rgba(0,0,0,0) 100%);
+	color: white;
+	font-size:12px;
+	padding: 5px;
+}
+.fa-headphones-alt{
+	margin-right: 3px;
+	font-size: 10px;
+}
+.NGHN-tittle a{
+	text-decoration: none;
+	color: black;
+}
+.NGHN-tittle a:hover{
+	color: #2daaed;
+}
+
+.DanhSach2 .list-HNNG2{
+	display: flex;
+}
+.NGHN-tittle{
+	margin: 10px 0px;
+}
